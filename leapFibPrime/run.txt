@@ -1,0 +1,4 @@
+flex string.l
+yacc -d string.y
+gcc lex.yy.c y.tab.c -o string_checker
+./string_checker
