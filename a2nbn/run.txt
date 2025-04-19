@@ -1,0 +1,4 @@
+yacc -d .\a2nbn.y
+lex .\a2nbn.l
+gcc .\lex.yy.c .\a2nbn.tab.c -o a2nbn.exe
+

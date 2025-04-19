@@ -1,0 +1,4 @@
+yacc -d .\anbncn.y
+lex .\anbncn.l
+gcc .\lex.yy.c .\anbncn.tab.c -o anbncn.exe
+

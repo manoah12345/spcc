@@ -1,0 +1,3 @@
+yaac -d .\anbn.y
+lex anbn.l
+gcc .\lex.yy.c .\anbn.tab.c 

@@ -1,0 +1,4 @@
+yacc -d .\calci.y
+lex .\calci.l
+gcc .\lex.yy.c .\calci.tab.c -o calci.exe
+
